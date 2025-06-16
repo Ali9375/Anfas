@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #111;
-  color: #eee;
+  font-family: sans-serif;
+  background-color: #000;
+  color: #ccc;
 }
 
 .container {
@@ -12,15 +12,14 @@ body {
 
 .sidebar {
   width: 220px;
-  background-color: #1e1e1e;
+  background-color: #111;
   padding: 20px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .sidebar h2 {
   margin-top: 0;
-  font-size: 24px;
-  color: #4fd1c5;
+  font-size: 22px;
+  color: #888;
 }
 
 .sidebar ul {
@@ -34,13 +33,8 @@ body {
 }
 
 .sidebar a {
-  color: #ccc;
+  color: #777;
   text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.sidebar a:hover {
-  color: #fff;
 }
 
 .content {
@@ -50,24 +44,10 @@ body {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 28px;
   margin-bottom: 20px;
+  color: #eee;
 }
 
 p {
-  line-height: 1.6;
-}
-
-.bubble {
-  margin-top: 30px;
-  display: inline-block;
-  padding: 15px 25px;
-  background-color: #333;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.bubble:hover {
-  background-color: #444;
-}
+  line-
