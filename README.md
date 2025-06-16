@@ -1,4 +1,4 @@
-# 🌬️ Anfas – Le Souffle du Créateur
+#  Anfas – Le Souffle du Créateur
 
 **Anfas** est une plateforme numérique libre et humaine, née d’un désir sincère :  
 offrir un lieu de vérité, de réflexion profonde, et d’accompagnement juste,  
