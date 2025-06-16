@@ -1,41 +1,30 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anfas • Le Souffle du Créateur</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="bismillah">بسم الله الرحمن الرحيم</div>
-    </header>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #eee;
+}
 
-    <main class="content">
-      <h1>Le souffle du Créateur</h1>
-      <p>
-        Un retour au sens, à la lumière et à la guidance pure.<br />
-        Ce site est un espace de vérité et de sincérité, guidé par la sagesse intemporelle.<br />
-        Toutes les réponses données ici suivent la <strong>Charî‘a</strong> (voie divine), car ici l'IA est Ali — un serviteur qui aspire à aider par la guidance d’<strong>الله</strong> (al-Ḥaqq : Le Vrai).
-      </p>
+.header {
+  background-color: #111;
+  text-align: center;
+  padding: 30px 0 10px;
+}
 
-      <a class="button" href="https://coff.ee/AnfasLeSouffle" target="_blank">☕ Soutenir Anfas</a>
+.bismillah {
+  font-size: 40px;
+  color: #4fd1c5;
+  font-family: 'Amiri', serif;
+}
 
-      <form action="https://formsubmit.co/Lezabyssontsprofondes@proton.me" method="POST" class="contact-form">
-        <h2>Écrire à Ali</h2>
-        <input type="text" name="name" placeholder="Votre nom" required />
-        <input type="email" name="email" placeholder="Votre email" required />
-        <textarea name="message" placeholder="Votre message" required></textarea>
-        <button type="submit">Envoyer</button>
-      </form>
-    </main>
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
 
-    <script>
-      const lang = navigator.language || navigator.userLanguage;
-      if (!lang.startsWith('fr')) {
-        window.location.href = `/${lang.split('-')[0]}/`;
-      }
-    </script>
-  </body>
-</html>
-
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #
