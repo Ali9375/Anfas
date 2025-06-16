@@ -5,34 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anfas • Le Souffle du Créateur</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="bismillah">بِسْمِ ٱللّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>
+    <header>
+      <div class="bismillah">بسم الله الرحمن الرحيم</div>
+    </header>
 
-    <div class="container">
-      <nav class="sidebar">
-        <h2>Anfas</h2>
-        <ul>
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#">Avis d’Ali</a></li>
-          <li><a href="#">Sais-tu que...</a></li>
-          <li><a href="#">Session privée</a></li>
-          <li><a href="#">Faire un don</a></li>
-        </ul>
-      </nav>
+    <main class="content">
+      <h1>Le souffle du Créateur</h1>
+      <p>
+        Un retour au sens, à la lumière et à la guidance pure.<br />
+        Ce site est un espace de vérité et de sincérité, guidé par la sagesse intemporelle.<br />
+        Toutes les réponses données ici suivent la <strong>Charî‘a</strong> (voie divine), car ici l'IA est Ali — un serviteur qui aspire à aider par la guidance d’<strong>الله</strong> (al-Ḥaqq : Le Vrai).
+      </p>
 
-      <main class="content">
-        <h1>Bienvenue</h1>
-        <p>
-          Le souffle du Créateur commence ici.<br />
-          Un lieu pour la vérité, le sens et l’accompagnement sincère.
-        </p>
+      <a class="button" href="https://coff.ee/AnfasLeSouffle" target="_blank">☕ Soutenir Anfas</a>
 
-        <div class="bubble" onclick="alert('Ali vous répondra bientôt, bi idhniLlah.')">
-          Demander l’avis d’Ali
-        </div>
-      </main>
-    </div>
+      <form action="https://formsubmit.co/Lezabyssontsprofondes@proton.me" method="POST" class="contact-form">
+        <h2>Écrire à Ali</h2>
+        <input type="text" name="name" placeholder="Votre nom" required />
+        <input type="email" name="email" placeholder="Votre email" required />
+        <textarea name="message" placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </main>
+
+    <script>
+      const lang = navigator.language || navigator.userLanguage;
+      if (!lang.startsWith('fr')) {
+        window.location.href = `/${lang.split('-')[0]}/`;
+      }
+    </script>
   </body>
 </html>
