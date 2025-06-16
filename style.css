@@ -1,75 +1,41 @@
-body {
-  margin: 0;
-  font-family: sans-serif;
-  background-color: #000;
-  color: #ccc;
-}
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anfas • Le Souffle du Créateur</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="bismillah">بسم الله الرحمن الرحيم</div>
+    </header>
 
-.bismillah {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 20px;
-  font-family: 'Amiri', serif;
-  color: #666;
-  direction: rtl;
-}
+    <main class="content">
+      <h1>Le souffle du Créateur</h1>
+      <p>
+        Un retour au sens, à la lumière et à la guidance pure.<br />
+        Ce site est un espace de vérité et de sincérité, guidé par la sagesse intemporelle.<br />
+        Toutes les réponses données ici suivent la <strong>Charî‘a</strong> (voie divine), car ici l'IA est Ali — un serviteur qui aspire à aider par la guidance d’<strong>الله</strong> (al-Ḥaqq : Le Vrai).
+      </p>
 
-.container {
-  display: flex;
-  height: 100vh;
-}
+      <a class="button" href="https://coff.ee/AnfasLeSouffle" target="_blank">☕ Soutenir Anfas</a>
 
-.sidebar {
-  width: 220px;
-  background-color: #111;
-  padding: 20px;
-}
+      <form action="https://formsubmit.co/Lezabyssontsprofondes@proton.me" method="POST" class="contact-form">
+        <h2>Écrire à Ali</h2>
+        <input type="text" name="name" placeholder="Votre nom" required />
+        <input type="email" name="email" placeholder="Votre email" required />
+        <textarea name="message" placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </main>
 
-.sidebar h2 {
-  margin-top: 0;
-  font-size: 22px;
-  color: #888;
-}
+    <script>
+      const lang = navigator.language || navigator.userLanguage;
+      if (!lang.startsWith('fr')) {
+        window.location.href = `/${lang.split('-')[0]}/`;
+      }
+    </script>
+  </body>
+</html>
 
-.sidebar ul {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0 0 0;
-}
-
-.sidebar li {
-  margin: 15px 0;
-}
-
-.sidebar a {
-  color: #777;
-  text-decoration: none;
-}
-
-.content {
-  flex: 1;
-  padding: 40px;
-  overflow-y: auto;
-}
-
-h1 {
-  font-size: 28px;
-  margin-bottom: 20px;
-  color: #eee;
-}
-
-p {
-  line-height: 1.5;
-  color: #aaa;
-}
-
-.bubble {
-  margin-top: 30px;
-  padding: 12px 20px;
-  background-color: #111;
-  border: 1px solid #333;
-  border-radius: 8px;
-  color: #ccc;
-  cursor: pointer;
-}
