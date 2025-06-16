@@ -1,11 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
-    <meta charset="UTF-8">
-    <title>Anfas</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anfas • Le Souffle du Créateur</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #121212;
+        color: #f0f0f0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+      }
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+      }
+      p {
+        font-size: 1.2em;
+        max-width: 600px;
+      }
+      .bubble {
+        margin-top: 2em;
+        padding: 1em 2em;
+        border: 1px solid #888;
+        border-radius: 2em;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+      .bubble:hover {
+        background-color: #1e1e1e;
+      }
+    </style>
   </head>
   <body>
-    <h1>Bienvenue sur Anfas 🌬️</h1>
-    <p>Le souffle du Créateur commence ici.</p>
+    <h1>🌬️ Anfas</h1>
+    <p>Le souffle du Créateur commence ici.<br/>Un lieu pour la vérité, le sens et l’accompagnement sincère.</p>
+
+    <div class="bubble" onclick="alert('Ali vous répondra bientôt, bi idhniLlah.')">
+      Demander l’avis d’Ali
+    </div>
   </body>
 </html>
